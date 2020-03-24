@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">AppAlarm</string>
+    <string name="open_app_usage_setting">Open Apps with usage access settings</string>
+    <string name="last_time_used">"Last time used: "</string>
+    <string name="time_span">"Time span: "</string>
+
+    <string name="display_order_text">Sort by:</string>
+    <string name="app_name_label"></string>
+    <string name="last_time_used_label"></string>
+    <string name="usage_time_label"></string>
+
+    <string name="enter_minutes">Minutes!</string>
+    <string name="start_timer">Start Timer</string>
+    <string name="stop_timer">Stop Timer</string>
+    <string name="reset_timer">Reset Timer</string>
+    <string name="timer">00:00:00</string>
+</resources>

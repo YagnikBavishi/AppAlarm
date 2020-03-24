@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white2"
+    android:gravity="center_horizontal|center_vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#008000"
+        android:text="Welcome to AppAlarm\n
+Now click on start Button and \n
+check your daily usage of \n
+android apps..."
+        android:textSize="24sp"
+        android:layout_marginTop="350dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="107dp"
+        android:layout_height="45dp"
+        android:id="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="140dp"
+        android:text="start"
+        android:background="#009688"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:scrollbarSize="@android:dimen/app_icon_size"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="-30dp"
+        android:gravity="center_horizontal"
+        android:paddingEnd="6dip"
+        app:srcCompat="@drawable/p"/>
+
+</RelativeLayout>

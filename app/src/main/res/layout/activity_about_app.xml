@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white2"
+    android:layout_gravity="center"
+    tools:context=".AboutApp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+
+        android:textColor="#008000"
+        android:text="
+        Version 1.0\n\n
+        Info:\n
+          This app is used for manage your time for social media and other applications and also we show in this app daily usage of all applications which is install in your smart phones\n
+          So that you give to understanding which app waste your time.\n\n
+@Created By\n
+Bavishi Yagnik\n
+Ajudiya Prince"
+        android:textSize="24dp" />
+
+</RelativeLayout>
